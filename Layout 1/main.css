@@ -1,0 +1,45 @@
+body {
+    background: lightcoral;
+}
+
+.outer-box {
+    width: 75%;
+    height: 65vh;
+    background: #999;
+    margin: 17.5vh auto;
+    padding: 3% 9%;
+}
+
+.inner-box {
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: auto;
+    position: relative;
+    
+}
+
+.inner-box div {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.inner-box div:nth-child(1) {
+    right: 20px;
+}
+
+.inner-box div:nth-child(2) {
+    right: -20px;
+}
+
+.inner-box div:nth-child(3) {
+    right: 20px;
+}
+
+.inner-box div:nth-child(4) {
+    right: -20px;
+}
+
